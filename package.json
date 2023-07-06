@@ -1,6 +1,6 @@
 {
   "name": "@fathym-it/lcu-eac-env-clouds-groups-ensure",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "@fathym-it/lcu-eac-env-clouds-groups-ensure",
   "author": "Fathym, Inc",
   "main": "lcu.json",
