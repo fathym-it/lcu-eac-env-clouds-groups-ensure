@@ -1,0 +1,19 @@
+{
+  "AZURE_CLOUD_LOOKUP": {
+    "Order": 1,
+    "Prompts": [
+      {
+        "Type": "eac:env:clouds|select",
+        "Message": "Choose the cloud to connect the ADB2C tenant to:"
+      }
+    ]
+  },
+  "RESOURCE_GROUP": {
+    "Order": 2,
+    "Prompts": [
+      {
+        "Message": "Enter the name (lower, snake case) for your resource group:"
+      }
+    ]
+  }
+}

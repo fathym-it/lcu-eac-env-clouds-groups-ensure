@@ -1,0 +1,27 @@
+{
+  "Package": {
+    "Name": "Azure Resource Group Create",
+    "Description": "An LCU for ensuring an azure resource group is created.",
+    "Image": "https://www.fathym.com/assets/images/logo.png",
+    "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
+    "Intents": [
+      "Azure",
+      "Cloud",
+      "Create Resource Group",
+      "Ensure"
+    ]
+  },
+  "Configurations": {
+    "Group": {
+      "Name": "Azure Resource Group",
+      "Description": "Azure Resource Group.",
+      "Phases": [
+        {
+          "Name": "Azure Resource Group",
+          "Order": 1,
+          "Asset": "resgroup"
+        }
+      ]
+    }
+  }
+}
